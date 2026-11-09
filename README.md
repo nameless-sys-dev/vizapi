@@ -21,5 +21,5 @@ curl -fsS "$API/jobs/<your_job_id_goes_here>" \
 ```
 curl -fL "$API/jobs/<the_same_job_id_goes_here>/video" \
   -H "X-API-Key: $KEY" \
-  -o night.mp4
+  -o video_file_name.mp4
 ```
