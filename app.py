@@ -379,7 +379,7 @@ class Scene:
             "spectrum": ("SPECTRUM", "−90…0 dBFS · log Hz"),
             "fan": ("STEREO FAN", "200 ms · auto gain"),
             "meters": ("PEAK + LOUDNESS", "dBFS / LUFS-M"),
-            "spectrogram": ("SPECTROGRAM ↓", "8 s · −90…0 dBFS"),
+            "spectrogram": ("SPECTROGRAM ↑", "8 s · −90…0 dBFS"),
         }
 
         self.panels = {}
